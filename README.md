@@ -1,7 +1,7 @@
 # Geofs-Fly-By-Wire
 A flybywire implementation for the geofs 737
 
-Simply copy and paste into the console at geo-fs.com/geofs.php while in the 737-700.
+Simply copy and paste index.js into the console at geo-fs.com/geofs.php while in the 737-700.
 
 
 **Features:**
