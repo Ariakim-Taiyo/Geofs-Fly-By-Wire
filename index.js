@@ -11,10 +11,10 @@ function computePitch(){
 //implement tilt hold
   if (geofs.animation.values.pitch <= deadZone && geofs.animation.values.pitch >= -deadZone){
 if (geofs.animation.values.atilt >= tiltToHold){
-  pitchStage1 = pitchStage1 + 0.01 * Math.abs(geofs.animation.values.atilt - tiltToHold)
+  pitchStage1 = pitchStage1 + 0.01
 }
   if (geofs.animation.values.atilt <= tiltToHold){
-  pitchStage1 = pitchStage1 - 0.01 * Math.abs(geofs.animation.values.atilt - tiltToHold)
+  pitchStage1 = pitchStage1 - 0.01
 }
 }
   else{
