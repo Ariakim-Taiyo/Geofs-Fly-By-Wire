@@ -1,9 +1,9 @@
 # Geofs-Fly-By-Wire
-A flybywire implementation for the geofs 737
+Fly-By-Wire for various aircraft.
 
-Simply copy and paste index.js into the console at geo-fs.com/geofs.php while in the 737-700.
+All are installed via the console. (F12 or CTRL-SHIFT-J). <br>
+Paste and press enter.
 
-
-**Features:**
-<br>
-Currently, the program can hold your climb angle and bank angle when the controls are centered. I plan on adding much more later.
+**NOTE ABOUT THE HELICOPTER FBW***<br>
+The helicopter FBW works with the Eurocopter EC135 only. It will make flying significantly easier at the expense of aerobatic capability. The helicopter is prone to some amount of oscillation at low speeds, but they are usually temporary and fully recoverable.<br>
+This works best with a joystick or controller, but will also work with keyboard and mouse. The handling is significantly different and will take some getting used to, but it's more intuitive than with no assistance.
